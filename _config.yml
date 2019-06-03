@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Tara Pirnia"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "bio"
   location         : "Pittsburgh, PA"
   employer         :
-  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=tara+pirnia"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=NK8plIIAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
