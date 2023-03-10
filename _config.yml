@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Tara Pirnia"
 title_separator          : "-"
-name                     : "disabled" #&name "Tara Pirnia"
+name                     : &name "Tara Pirnia"
 description              : &description "personal description"
 url                      : "https://tpirnia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
