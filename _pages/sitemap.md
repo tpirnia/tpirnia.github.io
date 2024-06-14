@@ -1,8 +1,6 @@
 ---
 layout: archive
 title: ""
-permalink: /cv/
+permalink: /sitemap/
 author_profile: true
-redirect_from:
-  - /resume
 ---
