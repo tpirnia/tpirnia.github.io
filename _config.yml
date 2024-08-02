@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tara Pirnia"
 title_separator          : "-"
 name                     : &name "Tara Pirnia"
-description              : &description "MD-PhD Student at University of Pittsburgh & Carnegie Mellon University"
+description              : &description "Medical Student at University of Pittsburgh"
 url                      : "https://tpirnia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tpirnia/tpirnia.github.io"
@@ -83,7 +83,7 @@ author:
   name             : "Tara Pirnia"
   avatar           : "profile.png"
   bio              : "MD-PhD Student at University of Pittsburgh & Carnegie Mellon University"
-  location         : "Pittsburgh, PA"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=NK8plIIAAAAJ"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "tpirnia"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -176,16 +176,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -216,7 +216,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -225,7 +225,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
